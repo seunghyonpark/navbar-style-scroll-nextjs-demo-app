@@ -30,7 +30,7 @@ export default function Navigation() {
 
   return (
     <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top"
+      className="navbar navbar-expand-lg navbar-light fixed-top"
       style={{
         background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
         padding: `${padding}px 0px`,
@@ -38,11 +38,11 @@ export default function Navigation() {
       }}
     >
       <div className="container">
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           Techomoro
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarText"
@@ -50,22 +50,23 @@ export default function Navigation() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+        
+        <div className="collapse navbar-collapse" id="navbarText">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact
               </a>
             </li>

@@ -3,16 +3,18 @@ import Navigation from "../components/Navigation";
 export default function Home() {
   return (
     <div>
+      
       <Navigation />
 
       {/* Dummy data */}
       <div style={{ marginTop: "7rem" }}>
+        
         <section id="home">
-          <div class="container px-4">
-            <div class="row gx-4 justify-content-center">
-              <div class="col-lg-8">
+          <div className="container px-4">
+            <div className="row gx-4 justify-content-center">
+              <div className="col-lg-8">
                 <h2>Home</h2>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -24,7 +26,7 @@ export default function Home() {
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -36,7 +38,7 @@ export default function Home() {
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -54,11 +56,11 @@ export default function Home() {
         </section>
 
         <section id="about">
-          <div class="container px-4">
-            <div class="row gx-4 justify-content-center">
-              <div class="col-lg-8">
+          <div className="container px-4">
+            <div className="row gx-4 justify-content-center">
+              <div className="col-lg-8">
                 <h2>About</h2>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -70,7 +72,7 @@ export default function Home() {
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -82,7 +84,7 @@ export default function Home() {
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -100,11 +102,11 @@ export default function Home() {
         </section>
 
         <section id="contact">
-          <div class="container px-4">
-            <div class="row gx-4 justify-content-center">
-              <div class="col-lg-8">
+          <div className="container px-4">
+            <div className="row gx-4 justify-content-center">
+              <div className="col-lg-8">
                 <h2>Contact</h2>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -116,7 +118,7 @@ export default function Home() {
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -128,7 +130,7 @@ export default function Home() {
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <p class="lead">
+                <p className="lead">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -144,7 +146,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+
       </div>
+
+
     </div>
   );
 }
